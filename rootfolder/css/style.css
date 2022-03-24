@@ -1,22 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+.logo {
+  font-size: 32px;
+}
 .navbar {
   display: flex;
   align-items: center; 
   justify-content: space-between;
-  padding: 20px; 
-  background-color: #1c1c1c;
-  color: #fff;
+  padding: 20px;
+  background-color: #fff;
+  color: #1c1c1c;
 } 
 
 .nav-links a {
-  color:#fff;
+  color:#1c1c1c;
   text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 } 
 
-/* Logo*/ 
-.logo {
-  font-size:32px;
-}
 /* Navbar Menu*/
 .menu {
   display: flex;
@@ -25,11 +26,10 @@
 } 
 
 .menu li:hover {
-  background-color: #1c1c1c;
+  background-color: #fff;
   border-radius: 5px; 
   transition: 0.3s ease;
 } 
-
 input[type=checkbox]{
   display: none;
 }
@@ -185,3 +185,44 @@ div.polaroid-container {
   padding-left: 80px;
   grid-gap: 0px;
 }
+
+#location-heading {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size:45px;
+  font-family: Arial, Helvetica, sans-serif;  
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: rgba(0,0,0, 0);
+  margin-bottom: 20px;
+} 
+
+.location-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 50px;
+  grid-gap: 10px;
+}
+
+.location-list-heading {
+  padding-top: 30px;
+  font-size: 40px;
+  font-family: 'Petit Formal Script', cursive;
+}
+
+.location-list-content {
+  font-family: 'Petit Formal Script', cursive;
+  padding-left: 10px;
+  font-size: 20px;
+} 
+
+.navbar-footer {
+  border-top:2px solid #1c1c1c;
+  position: sticky;
+  bottom: 0;
+  align-items: center; 
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  color: #1c1c1c;
+}  
