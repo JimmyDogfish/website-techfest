@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 
 .logo {
-  font-size: 32px;
+  height: 125px;
 }
 .navbar {
   display: flex;
   align-items: center; 
-  justify-content: space-between;
+  justify-content: space-between; 
   padding: 20px;
   background-color: #fff;
   color: #1c1c1c;
@@ -22,7 +22,7 @@
 .menu {
   display: flex;
   gap: 1em;
-  font-size: 18px; 
+  font-size: 20px; 
 } 
 
 .menu li:hover {
