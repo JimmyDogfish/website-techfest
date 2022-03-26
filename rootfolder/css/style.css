@@ -213,7 +213,7 @@ div.polaroid-container {
 
 .location-list {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   padding-left: 50px;
   grid-gap: 10px;
 }
@@ -239,4 +239,9 @@ div.polaroid-container {
   padding: 20px;
   background-color: #fff;
   color: #1c1c1c;
-}  
+}   
+
+.map {
+  min-height: 100vh;
+  overflow: hidden;
+}
