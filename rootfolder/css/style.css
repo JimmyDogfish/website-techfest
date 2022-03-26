@@ -225,4 +225,9 @@ div.polaroid-container {
   padding: 20px;
   background-color: #fff;
   color: #1c1c1c;
-}  
+}   
+
+.map {
+  min-height: 100vh;
+  overflow: hidden;
+}
