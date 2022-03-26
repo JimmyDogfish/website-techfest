@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 
+.p {
+align-items: left; 
+font-family: Arial, Helvetica, sans-serif;
+color: #1c1c1c;
+}
+
 .logo {
-  height: 125px;
+  height: 120px;
 }
 .navbar {
   display: flex;
@@ -120,6 +126,14 @@ input[type=checkbox]:checked ~ .menu {
   top: 30%;
   left: 5%;
   font-size:70px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+#heading3 {
+  position: relative;
+  top: 30%;
+  left: 5%;
+  font-size:10px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
