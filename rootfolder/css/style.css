@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
-
+@font-face {
+  font-family: avenir-next;
+  src: url(../fonts/AvenirNextLTPro-Regular.otf);
+}
 .p {
 align-items: left; 
 font-family: Arial, Helvetica, sans-serif;
@@ -82,7 +85,7 @@ input[type=checkbox]:checked ~ .menu {
 }
 
 #main-content {
-  background-image: url('../img/view-hotel.jpg');
+  background-image : url("../img/view-hotel.jpg");
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -245,3 +248,44 @@ div.polaroid-container {
   min-height: 100vh;
   overflow: hidden;
 }
+
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  }
+  .video-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  }
+.header{
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 5%;
+  font-size:90px;
+  font-family: Arial, Helvetica, sans-serif;
+  } 
+
+#heading4 {
+  margin-left: 30px;
+  font-size:45px;
+  font-family: Arial, Helvetica, sans-serif;  
+  -webkit-text-stroke-width:1px ;
+  -webkit-text-stroke-color: black;
+  -webkit-text-fill-color: rgba(0,0,0, 0);
+}
+  #paragraph-text {
+    font-size: 20px;
+    font-family: avenir-next;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
