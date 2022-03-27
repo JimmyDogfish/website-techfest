@@ -82,7 +82,7 @@ input[type=checkbox]:checked ~ .menu {
 }
 
 #main-content {
-  background-image: url('../img/view-hotel.jpg');
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -237,7 +237,7 @@ div.polaroid-container {
   align-items: center; 
   justify-content: space-between;
   padding: 20px;
-  background-color: #fff;
+  background-color: none;
   color: #1c1c1c;
 }   
 
@@ -245,3 +245,28 @@ div.polaroid-container {
   min-height: 100vh;
   overflow: hidden;
 }
+
+video {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  }
+  .video-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  display: flex;
+  }
+.header{
+  color: white;
+  position: relative;
+  top: 30%;
+  left: 5%;
+  font-size:90px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
