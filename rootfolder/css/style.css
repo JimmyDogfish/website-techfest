@@ -279,9 +279,6 @@ video {
   margin-left: 30px;
   font-size:45px;
   font-family: 'Playfair Display', serif;
-  -webkit-text-stroke-width:1px ;
-  -webkit-text-stroke-color: black;
-  -webkit-text-fill-color: rgba(0,0,0, 0);
 }
   #paragraph-text {
     font-size: 20px;
