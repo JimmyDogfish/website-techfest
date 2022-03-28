@@ -92,7 +92,29 @@ input[type=checkbox]:checked ~ .menu {
   width: 100%;
   color: white;
   overflow: hidden;
+}
+
+#room1{
+  background-image: url("../img/hotel-room.jpg");
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+  height: 100%;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  heading: white
 } 
+
+#cuisine{
+  background-image: url("../img/cuisine.jpg");
+  background-size: 100% 80%;
+  background-repeat:no-repeat;
+  height: 100%;
+  width: 100%;
+  color: white;
+  overflow: hidden;
+} 
+
 
 #overlay1 {
   background: rgba(0, 0, 0, 0.5);
@@ -140,6 +162,14 @@ input[type=checkbox]:checked ~ .menu {
   font-size:10px;
   font-family: Arial, Helvetica, sans-serif;
 }
+#heading_custom {
+  position: relative;
+  margin-right: 30%;
+  top: 30%;
+  left: 5%;
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .subheading { 
   position: relative;
@@ -185,6 +215,13 @@ input[type=checkbox]:checked ~ .menu {
   margin-bottom: 20px;
 }  
 
+#text {
+  position: relative;
+  margin-left:5px;
+  font-family: Arial, Helvetica, sans-serif;  
+  
+  
+}  
 div.polaroid {
   width: 80%;
   background-color: white;
