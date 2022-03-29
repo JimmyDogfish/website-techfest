@@ -102,7 +102,6 @@ input[type=checkbox]:checked ~ .menu {
   width: 100%;
   color: white;
   overflow: hidden;
-  heading: white
 } 
 
 #cuisine{
@@ -231,6 +230,7 @@ div.polaroid {
 
 div.polaroid-container {
   text-align: center;
+  font-family: avenir-next;
   padding: 10px 20px;
 } 
 
