@@ -375,3 +375,11 @@ video {
     color: white;
     overflow: hidden;
   } 
+  #cusine-content {
+    background-image : url("../img/foo1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
