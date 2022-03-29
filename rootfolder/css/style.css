@@ -327,9 +327,48 @@ video {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  #list-item-text {
+    font-size: 20px;
+    font-family: avenir-next;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 
   #story-content {
     background-image : url("../img/sunset.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #covid-content {
+    background-image : url("../img/covid.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #social-content {
+    background-image : url("../img/social.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #enviornment-content {
+    background-image : url("../img/enviornment.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #onland-content {
+    background-image : url("../img/onland.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
