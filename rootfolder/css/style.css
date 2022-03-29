@@ -127,7 +127,7 @@ input[type=checkbox]:checked ~ .menu {
   top: 30%;
   left: 5%;
   font-size:90px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 #safety {
@@ -377,6 +377,30 @@ video {
   } 
   #cusine-content {
     background-image : url("../img/foo1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #principle-content {
+    background-image : url("../img/food2.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #rooms-content {
+    background-image : url("../img/hotel-room.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #conclude-content {
+    background-image : url("../img/conclude.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
