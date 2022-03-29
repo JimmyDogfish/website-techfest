@@ -423,3 +423,9 @@ video {
     -webkit-text-stroke-color: black;
     -webkit-text-fill-color: rgba(0,0,0, 0);
   }
+
+  .environment-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0px;
+  }
