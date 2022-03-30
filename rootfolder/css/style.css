@@ -520,3 +520,24 @@ video {
     font-family: Playfair-Display,serif;
     font-size: 45px;
   }
+
+  .row {
+    display: flex;
+    overflow: hidden;
+    overflow: hidden;
+  }
+
+  .column {
+    flex: 50%;
+    height: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
+
+  .column > h1  {
+    padding-top: 50%;
+  }
+
+  .column > img {
+    border-radius: 50px;
+  }
