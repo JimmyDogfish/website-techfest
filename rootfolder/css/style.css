@@ -342,6 +342,13 @@ video {
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+  #paragraph4-text {
+    font-size: 25px;
+    font-family: avenir-next;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     
   
   }
@@ -443,6 +450,22 @@ video {
   } 
   #sustanibility-content {
     background-image : url("../img/sustan.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #about-content {
+    background-image : url("../img/about1.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  } 
+  #about-sustain-content {
+    background-image : url("../img/about2.jpg");
     background-size: cover;
     height: 100vh;
     width: 100%;
