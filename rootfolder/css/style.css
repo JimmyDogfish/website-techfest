@@ -428,4 +428,15 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
-  }
+  } 
+
+  #booking-heading {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size:45px;
+    font-family: Arial, Helvetica, sans-serif;  
+    -webkit-text-stroke-width:1px ;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: rgba(0,0,0, 0);
+    margin-bottom: 20px;
+  } 
