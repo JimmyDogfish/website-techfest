@@ -539,5 +539,6 @@ video {
   }
 
   .column > img {
+    overflow: hidden;
     border-radius: 50px;
   }
