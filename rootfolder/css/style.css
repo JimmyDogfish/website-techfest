@@ -17,7 +17,7 @@ color: #1c1c1c;
   display: flex;
   align-items: center; 
   justify-content: space-between; 
-  padding: 18px;
+  padding: 20px;
   background-color: #fff;
   color: #1c1c1c;
 } 
@@ -32,7 +32,7 @@ color: #1c1c1c;
 .menu {
   display: flex;
   gap: 1em;
-  font-size: 20px; 
+  font-size: 18px; 
 } 
 
 .menu li:hover {
